@@ -1,4 +1,8 @@
-main{
+body {
+    margin: 0 80px;
+}
+
+main {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 1rem;
@@ -7,4 +11,24 @@ main{
 .bike {
     display: flex;
     flex-flow: column;
+}
+
+figure {
+    order: -1;
+    align-self: center;
+    width: minmax(250px, 1fr);
+}
+
+
+/* Styling */
+
+body {
+    background: #f2efea;
+}
+article {
+    background: #fff;
+}
+
+img-bikes {
+    width: 100%;
 }
