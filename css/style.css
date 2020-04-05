@@ -1,5 +1,15 @@
+:root{
+    --background-beige:#f2efea ;
+    --black-colour:#000 ;
+    --white-colour:#fff ;
+    --grey-colour: #6B6B6B ;
+    --dark-red: #6E2A27;
+
+}
+
 body {
     margin: 40px 30px;
+    color: var(--grey-colour);
 }
 
 main {
@@ -14,26 +24,108 @@ main {
     flex-flow: column;
 }
 
-figure {
+.figure-img {
     order: -1;
     align-self: center;
-    width: minmax(250px, 1fr);
+    width: 250px;
 }
 
 
 /* Styling */
 
 body {
-    background: #f2efea;
+    background: var(--background-beige);
+    font-family: "avenir";
+/*    font-weight: bolder;*/
+}
+main{
+    margin-top: 60px;
 }
 article {
     background: #fff;
+    padding: 10px;
 }
 
-.img-bikes {
+h2{
+    font-family: "domine";
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+p{
+    font-style: italic;
+    color: var(--grey-colour);
+}
+.fetched{
+    font-family: serif;
+    font-weight:600;
+    color: var(--black-colour);
+
+}
+
+
+.headerH2 {
+    display: inline;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+.brandsTop{
+    color: var(--dark-red);
+}
+
+.img-bike {
     width: 100%;
 }
 .bikeStock{
-    width:10px;
-    height: 10px;
+    width:210px;
+    margin: 0 0 15px
+}
+
+.brand{
+    margin:0 10px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.model{
+    margin:3px 10px;
+    font-size: 17px;
+    color: var(--grey-colour);
+    letter-spacing: 4px;
+}
+
+.fullSpecs{
+    margin: 10px 30% 0px;
+    border-radius: 1px;
+    text-transform: uppercase;
+    border: solid 1px;
+   color: var(--dark-red);
+    font-size: 18px;
+    padding:6px 9px;
+}
+
+.box {
+    border: solid .3px #f2efea;
+    margin: 10px;
+    padding: 10px;
+}
+
+.thinLines {
+border: solid .3px #f2efea;
+    margin: 0px;
+}
+
+.thickLines {
+   border: solid .5px grey;
+    margin: 0 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.colourDiv {
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    margin: 0px 6px;
 }

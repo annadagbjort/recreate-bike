@@ -4,15 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>bikes</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <figure><img src="../bike-recreate/img/bike-stock.png" alt="" class="bikeStock" width="100px"></figure>
-        <h2>Brands we carry -</h2>
-        <h2 class="brandsTop">Linus / Brompton / Christiania / State</h2>
+        <img src="img/bike-stock.png" alt="bike stock" class="bikeStock"> <br>
+        <h2 class="headerH2">Brands we carry -</h2>
+        <h2 class="brandsTop headerH2">Linus / Brompton / Christiania / State</h2>
     </header>
 
     <main> </main>
@@ -21,24 +21,26 @@
         <article class="bike">
             <h3 class="brand">brand</h3>
             <h2 class="model">model</h2>
-            <hr>
+            <hr class="thickLines">
             <div class="box">
-                <p>Price -
-                    <span class="price">price</span> -
-                    <span class="toPrice">price</span>
+                <p>Price - &nbsp;&nbsp;
+                    <span class="fetched">
+                        $<span class="price">price</span>
+                        <span class="twoPrices"> -
+                            $<span class="toPrice">price</span>
+                        </span>
+                    </span>
                 </p>
                 <hr class="thinLines">
-                <p>Colours -<span class="colour">colour</span></p>
+                <p>Colours - &nbsp;&nbsp;<span class="colour fetched"></span></p>
                 <hr class="thinLines">
-                <p>In Stock -<span class="inStock">inStock</span></p>
+                <p>In Stock - &nbsp;&nbsp;<span class="inStock fetched"> inStock</span></p>
                 <hr class="thinLines">
-                <button>FULL SPECS</button>
+                <button class="fullSpecs">Full Specs</button>
             </div>
             <figure class="figure-img"> <img src="" alt="" class="img-bike"> </figure>
         </article>
     </template>
 
     <script src="js/script.js"></script>
-</body>
-
-</html>
+</body></html>
