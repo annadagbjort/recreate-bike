@@ -27,7 +27,9 @@ main {
 .figure-img {
     order: -1;
     align-self: center;
-    width: 250px;
+    width: 300px;
+    padding: 0px;
+    margin: 0px;
 }
 
 
@@ -60,6 +62,7 @@ p{
     font-family: serif;
     font-weight:600;
     color: var(--black-colour);
+    font-size: 18px;
 
 }
 
@@ -74,7 +77,7 @@ p{
 }
 
 .img-bike {
-    width: 100%;
+    width: 300px;
 }
 .bikeStock{
     width:210px;
