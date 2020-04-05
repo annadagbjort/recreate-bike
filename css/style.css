@@ -1,11 +1,12 @@
 body {
-    margin: 0 80px;
+    margin: 40px 30px;
 }
 
 main {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-gap: 1rem;
+/*    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));*/
+    grid-template-columns: repeat(auto-fill, 360px);
+    grid-gap: 4rem;
 }
 
 .bike {
@@ -29,6 +30,10 @@ article {
     background: #fff;
 }
 
-img-bikes {
+.img-bikes {
     width: 100%;
+}
+.bikeStock{
+    width:10px;
+    height: 10px;
 }

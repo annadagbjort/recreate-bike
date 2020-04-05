@@ -25,7 +25,7 @@ function showBikes(bikes) {
 
 
     copy.querySelector(".img-bike").src = bikes._embedded["wp:featuredmedia"][0].media_details.sizes.medium.source_url
-     copy.querySelector(".img-bike").alt = bikes.brand;
+    copy.querySelector(".img-bike").alt = bikes.brand;
 
 
     document.querySelector("main").appendChild(copy);

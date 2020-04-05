@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,21 +9,36 @@
 </head>
 
 <body>
+    <header>
+        <figure><img src="../bike-recreate/img/bike-stock.png" alt="" class="bikeStock" width="100px"></figure>
+        <h2>Brands we carry -</h2>
+        <h2 class="brandsTop">Linus / Brompton / Christiania / State</h2>
+    </header>
 
-    <main></main>
+    <main> </main>
 
     <template>
         <article class="bike">
             <h3 class="brand">brand</h3>
             <h2 class="model">model</h2>
-            <div class="price">price</div>
-            <div class="toPrice">price</div>
-            <div class="colour">colour</div>
-            <div class="inStock">inStock</div>
+            <hr>
+            <div class="box">
+                <p>Price -
+                    <span class="price">price</span> -
+                    <span class="toPrice">price</span>
+                </p>
+                <hr class="thinLines">
+                <p>Colours -<span class="colour">colour</span></p>
+                <hr class="thinLines">
+                <p>In Stock -<span class="inStock">inStock</span></p>
+                <hr class="thinLines">
+                <button>FULL SPECS</button>
+            </div>
             <figure class="figure-img"> <img src="" alt="" class="img-bike"> </figure>
         </article>
     </template>
 
     <script src="js/script.js"></script>
-</body></html>
+</body>
 
+</html>
